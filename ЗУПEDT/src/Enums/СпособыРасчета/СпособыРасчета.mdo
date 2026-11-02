@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d3a4a18-25fb-416c-bc33-e0a055e7337b">
+  <producedTypes>
+    <refType typeId="bf403635-d84a-47d9-b0c0-2acb807e3357" valueTypeId="fa19c3c8-402b-4b72-8522-428ddde1c2d2"/>
+    <listType typeId="dffffe8f-3945-4e60-b8f7-9a3719d45a07" valueTypeId="df7b2ade-252d-434a-b58e-b33191f34ed1"/>
+    <managerType typeId="7aa487b6-06a2-4bae-823e-5006c599ca39" valueTypeId="fedfc141-9e72-48e2-8372-788938608d8a"/>
+  </producedTypes>
+  <name>СпособыРасчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы расчета</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8de90c19-7ce7-44cf-a66a-89120f85da88">
+    <name>ПоОкладу</name>
+    <synonym>
+      <key>ru</key>
+      <value>По окладу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c3b4b6ec-ee0c-47cb-9858-ee58876041fb">
+    <name>ФиксированнаяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фиксированная сумма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="58a2d563-9afc-4b74-8450-b496db704197">
+    <name>ПроцентОтБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент от базы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

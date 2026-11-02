@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6215ba0a-024d-4d71-ae4e-759a4d86eb98">
+  <name>РасчетЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет зарплаты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>ChartOfCalculationTypes.Начисления</content>
+  <content>ChartOfCalculationTypes.Удержания</content>
+  <content>CalculationRegister.Начисления</content>
+  <content>CalculationRegister.Удержания</content>
+  <content>AccumulationRegister.Взаиморасчеты</content>
+  <content>Document.НачислениеЗарплаты</content>
+  <content>Document.ВедомостьНаВыплату</content>
+  <content>Report.РасчетнаяВедомость</content>
+  <content>DataProcessor.ПомощникНачисления</content>
+</mdclass:Subsystem>

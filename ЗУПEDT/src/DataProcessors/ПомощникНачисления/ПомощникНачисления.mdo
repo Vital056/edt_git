@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0b46a3f-759f-4dc1-a1ca-b91b396b8f9a">
+  <producedTypes>
+    <objectType typeId="8550dbce-ff47-45f9-bd9d-15af68f929bb" valueTypeId="1f378e2a-c279-459d-961f-cd9e590c5bee"/>
+    <managerType typeId="ac210d59-628d-400a-b3e4-d68a1adbdbb8" valueTypeId="c3427adb-e1dd-49a5-86e2-2b381d1180c9"/>
+  </producedTypes>
+  <name>ПомощникНачисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помощник начисления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПомощникНачисления.Form.Форма</defaultForm>
+  <forms uuid="d81ba393-98aa-49fb-b406-884b0034b1b6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помощник начисления</value>
+    </synonym>
+  </forms>
+</mdclass:DataProcessor>

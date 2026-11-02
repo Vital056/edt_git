@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1efd950-4523-400f-ac84-0e3d3018b747">
+  <producedTypes>
+    <objectType typeId="849b157c-f7f9-424b-a87a-012de3656932" valueTypeId="9725c0b2-4b9a-4cb2-b29f-9ff78c6f547d"/>
+    <refType typeId="241321ce-727f-4261-a191-aa1420856a16" valueTypeId="beaf9476-6b68-404b-a61b-2d9219352b33"/>
+    <selectionType typeId="1b9a5bfc-1682-4d72-bb66-dba535f81db4" valueTypeId="41b5e813-7513-4113-bc19-0e8bf933550a"/>
+    <listType typeId="53556059-53f1-46a4-9b36-73320be2d63a" valueTypeId="cfee0f9b-78ce-4bb1-9f13-fe43eb46053d"/>
+    <managerType typeId="46cca3ce-6ce4-4031-abd0-31da5d4200d8" valueTypeId="aa1c8ffd-2321-44de-bd29-825b14dce9f8"/>
+  </producedTypes>
+  <name>Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Должности.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Должности.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Должности</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="41531229-df28-43e6-b66c-be052ed8b39a">
+    <name>МинимальныйОклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальный оклад</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c073839d-d323-40eb-9e4a-34334a5a6b3d">
+    <name>ВредныеУсловия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вредные условия труда</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

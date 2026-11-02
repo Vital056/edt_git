@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0ed22d4-6a4c-414e-823a-1001579b8b01">
+  <producedTypes>
+    <objectType typeId="ce3b3c38-b872-4654-bb71-897f653e73a9" valueTypeId="0e959f18-1965-4629-aee7-832163c3d609"/>
+    <managerType typeId="b136717d-c3b5-4288-9c7f-99293933f697" valueTypeId="86d20f5a-5622-4534-9f5d-ab6a513157f6"/>
+  </producedTypes>
+  <name>КадровыйСостав</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровый состав</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.КадровыйСостав.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="92f726de-539d-4943-b2a7-1c4e222635b9">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

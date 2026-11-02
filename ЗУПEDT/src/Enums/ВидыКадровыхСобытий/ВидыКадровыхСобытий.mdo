@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="647e08cb-f3af-4230-a7c3-be07b4138021">
+  <producedTypes>
+    <refType typeId="7d321ad3-0652-48ad-a024-7bdd1f4c8932" valueTypeId="e3a031ad-3495-4b6c-b881-919930aace96"/>
+    <listType typeId="dba251af-2d1d-4b30-9b43-0f8620454848" valueTypeId="10725093-6b0a-44dc-a76c-0972a3c743ec"/>
+    <managerType typeId="2ce3f481-ab1f-407d-b43b-604b14ec8605" valueTypeId="6164e35a-a003-44b1-88b2-9ea137d581ee"/>
+  </producedTypes>
+  <name>ВидыКадровыхСобытий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды кадровых событий</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ec879dbb-1ff2-48e3-8c4f-eeba8c772071">
+    <name>Прием</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прием</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bc84848d-895f-4421-981d-c992f20bd357">
+    <name>Перевод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перевод</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d7baaf7a-9574-4a1a-bca3-68bb8d4078a1">
+    <name>Увольнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Увольнение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

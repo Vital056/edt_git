@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0189f22-3222-4f3c-a90d-6e4ab8278584">
+  <name>Настройка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.ОсновнаяОрганизация</content>
+  <content>Enum.Пол</content>
+  <content>Enum.ВидыКадровыхСобытий</content>
+  <content>Enum.СпособыРасчета</content>
+  <content>Enum.ВидыВыплат</content>
+</mdclass:Subsystem>

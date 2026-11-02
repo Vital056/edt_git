@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf642b89-9742-4eb0-a0cb-ce4cd2412b3f">
+  <producedTypes>
+    <selectionType typeId="ad1a9ec7-66cf-4175-855a-b31fe409aaa2" valueTypeId="68fbe593-b48c-40cc-879c-6e13dca45fe2"/>
+    <listType typeId="8b617b18-f7fa-4b2b-93da-75f3fed6a31f" valueTypeId="b865a84a-d642-44b1-8811-cc3124731d2a"/>
+    <managerType typeId="6525a74e-b915-4527-89d9-9517b3aee175" valueTypeId="5e3c9d43-a53d-41dd-bd77-fe5820971107"/>
+    <recordSetType typeId="6d7c511e-73e8-4a17-a8b1-8e0f30e175a2" valueTypeId="2d2df384-2034-41d2-ba5b-e3d412b69045"/>
+    <recordKeyType typeId="3abf89ac-1857-493d-85c5-786e112ab5f5" valueTypeId="963167ec-ae2c-4392-b927-378959dedee8"/>
+    <recordType typeId="0bb88999-6c97-4042-84d6-c8017cf1a261" valueTypeId="ddb84d3d-c977-4402-be7b-90cc239fb64d"/>
+    <recordManagerType typeId="d5068cc2-e51e-4620-b758-6b6444634504" valueTypeId="d493ec92-ab16-48ba-916d-cbda6bcc331e"/>
+  </producedTypes>
+  <name>ШтатноеРасписание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штатное расписание</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Строка штатного расписания</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Штатное расписание</value>
+  </listPresentation>
+  <attributes uuid="0170c41c-e0d5-4d99-9688-509568a7257e">
+    <name>Оклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оклад</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cba39079-4dbe-4e44-966c-c52088bea8c0">
+    <name>КоличествоСтавок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество ставок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <scale>1</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="319a4428-bec3-4c9f-b1c1-a4062a4cfb5e">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="57217635-55bf-40e6-bdce-b3a2d259d940">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

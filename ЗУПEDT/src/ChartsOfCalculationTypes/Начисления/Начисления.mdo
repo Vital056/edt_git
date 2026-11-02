@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCalculationTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0a70f1d-547c-4307-96cf-052f056313a9">
+  <producedTypes>
+    <objectType typeId="4c06f247-1de7-46e7-b4ee-7edea96d8da5" valueTypeId="44ad2993-77f5-4c5b-b0e9-9b8ce721e00a"/>
+    <refType typeId="e9a04390-0b82-4b9d-a19d-dad34ee895be" valueTypeId="5cb884f3-f241-4ccb-ae63-8b6a384bcdb0"/>
+    <selectionType typeId="815f35b3-0b4c-41c7-aff4-df23df781077" valueTypeId="60eb2e76-65f8-48f8-a976-a0a277243b09"/>
+    <listType typeId="84ecb221-df28-446a-b3ad-150253edbaa3" valueTypeId="de85989e-cbbc-4faa-80c5-43772e54e678"/>
+    <managerType typeId="92088657-8055-402d-94f6-07e3a3ef61b3" valueTypeId="42dd5590-8746-4ddf-924c-bf152019e8e2"/>
+    <displacingCalculationTypesType typeId="da3249e1-16ef-4545-9c55-fec1f92ecfc2" valueTypeId="6d5eba44-5271-4ddf-9859-7053724daca9"/>
+    <displacingCalculationTypesRowType typeId="00e0481a-1b82-45c7-8554-2a0d92b0a72a" valueTypeId="f01521a9-2bfb-47a8-a9b1-cece2decbee1"/>
+    <baseCalculationTypesType typeId="075f9664-0e80-43e5-b71d-8b01e05a4e84" valueTypeId="c8b2ce52-93d7-4006-80d8-ed1f221f38e1"/>
+    <baseCalculationTypesRowType typeId="2d626bd5-21c6-4ab2-b17e-c378e6da95e8" valueTypeId="bf2efa75-d95f-4415-8688-98b9fb8a7c4a"/>
+    <leadingCalculationTypesType typeId="bb9cc32b-dd18-4859-a30b-c22dc3654eaa" valueTypeId="280e7e20-88c6-44b1-8367-0468b6c608a2"/>
+    <leadingCalculationTypesRowType typeId="b9cc0f95-6f8d-42e0-a684-d4e6b932526b" valueTypeId="ca2b46d3-91f9-4ba1-b96f-5b957d1b68f7"/>
+  </producedTypes>
+  <name>Начисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Начисление</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Начисления</value>
+  </listPresentation>
+  <codeLength>9</codeLength>
+  <descriptionLength>40</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <predefined>
+    <items id="bb9043a2-8815-48d9-891c-7458f57b23ca">
+      <name>Оклад</name>
+      <description>Оклад</description>
+    </items>
+    <items id="1a825ee9-550c-4a4b-90f8-7901fc03191f">
+      <name>Премия</name>
+      <description>Премия</description>
+    </items>
+  </predefined>
+  <attributes uuid="428ac465-cab8-4c88-83b4-bee116c6e378">
+    <name>СпособРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ расчета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыРасчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:ChartOfCalculationTypes>

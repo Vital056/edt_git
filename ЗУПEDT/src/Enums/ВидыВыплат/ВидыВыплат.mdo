@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc7e41d5-0ca5-4cfd-b40d-6d7098975d08">
+  <producedTypes>
+    <refType typeId="e61d1580-53ea-4503-9362-bb24da038562" valueTypeId="c726793c-d7c9-4c8d-93d4-1b2ef28a2d20"/>
+    <listType typeId="060bc5f1-2675-46a8-99de-64c47abccb68" valueTypeId="b4fc5a06-71f5-4ab9-a2a4-6ab211f076a1"/>
+    <managerType typeId="2a3e8b08-4b1e-40ec-bd8a-c154bee18732" valueTypeId="f15eabcc-2a18-4d5c-aade-20edb68b6a53"/>
+  </producedTypes>
+  <name>ВидыВыплат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды выплат</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0f8ea657-c3a4-43d4-af96-67f1e0d3959f">
+    <name>Касса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Касса</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0dcbdea7-cf18-4e0d-a402-07e43403b7ec">
+    <name>Банк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банк</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
